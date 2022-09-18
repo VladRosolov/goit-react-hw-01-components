@@ -1,0 +1,60 @@
+.transaction_history {
+  margin-bottom: 50px;
+}
+table {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
+  font-size: 18px;
+  border-radius: 10px;
+  border-spacing: 0;
+  text-align: center;
+  cursor: pointer;
+}
+th {
+  background: #39c0e2;
+  color: white;
+  text-shadow: 0 1px 1px #2d2020;
+  padding: 20px 70px;
+  width: 150px;
+}
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: rgb(230, 230, 230);
+}
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+th:first-child {
+  border-top-left-radius: 10px;
+}
+th:last-child {
+  border-top-right-radius: 10px;
+  border-right: none;
+}
+td {
+  padding: 20px 20px;
+  color: #898989;
+  text-transform: capitalize;
+}
+tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+  border-right: none;
+}
+
+tr:nth-child(odd) {
+  background: white;
+}
+tr:nth-child(even) {
+  background: #f1f1f1;
+}
+
+td:first-child {
+  padding-left: 70px;
+}

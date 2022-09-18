@@ -1,0 +1,35 @@
+.friend_list {
+  font-size: 18px;
+  list-style: none;
+}
+
+.item {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  gap: 16px;
+  margin: 12px;
+  padding: 12px;
+  width: 300px;
+}
+
+.status {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.true {
+  background-color: green;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.false {
+  background-color: red;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}

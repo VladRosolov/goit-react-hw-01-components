@@ -1,0 +1,23 @@
+.statistics {
+  font-size: 18px;
+}
+
+.title {
+  text-align: center;
+}
+
+.stat_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  width: 80px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
